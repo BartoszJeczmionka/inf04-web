@@ -3,7 +3,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background: #331111;
+    background: #20ff67;
 }
 
 header{
@@ -26,11 +26,11 @@ img{
 }
 h1, h3{
     font-weight: bold;
-    color: #ff1414; 
+    color: #e4e410; 
     margin:0;
 }
 h3{
-    color: #ff2424;
+    color: #d4d410;
 }
 main{
     display: flex;
@@ -57,7 +57,7 @@ li{
 hr{
     width:90%;
     height:2px;
-    background: #ff1414;
+    background: #e4e410;
     border: none;
 }
  
@@ -75,9 +75,9 @@ hr{
   }
   
   input:focus, select:focus, textarea:focus {
-    outline: 2px solid #ff1414;
+    outline: 2px solid #e4e410;
     outline-offset: 0px;
-    border-color: #ff1414;
+    border-color: #e4e410;
   }
   
   textarea {
@@ -101,7 +101,7 @@ hr{
     padding: 0.6rem 1.4rem;
     font-weight: bold;
     color: gainsboro;
-    background: #ff1414;
+    background: #e4e410;
     border: 3px solid gainsboro;
     border-radius: 6px;
     cursor: pointer;
@@ -115,13 +115,13 @@ hr{
   .podziekowanie {
     padding: 1rem 1.25rem;
     background: #441111;
-    border-left: 4px solid #ff1414;
+    border-left: 4px solid #e4e410;
     border-radius: 6px;
   }
   
   .podziekowanie h3 {
     margin-top: 0;
-    color: #ff1414;
+    color: #e4e410;
   }
 
   footer {
@@ -134,12 +134,12 @@ hr{
   }
   
   a {
-    color: #ff1414;
+    color: #e4e410;
     text-decoration: none;
   }
   
   a:hover {
     text-decoration: underline;
-    color: #ff1414;
+    color: #e4e410;
   }
   
