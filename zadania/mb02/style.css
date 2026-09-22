@@ -1,11 +1,3 @@
-/* ---------------------------------------------------------------
-   Kolor przewodni: #ff4b00
-     0xff = 15·16 + 15 =  255
-     0x4b = 4·16 + 11 =  63
-     0x00 = 0·16 + 0 = 0
-   -> rgb(255, 75, 0)
-   --------------------------------------------------------------- */
-
 *{
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
@@ -34,11 +26,11 @@ img{
 }
 h1, h3{
     font-weight: bold;
-    color: #ff4b00; 
+    color: #ff1414; 
     margin:0;
 }
 h3{
-    color: #ff4d00c4;
+    color: #ff2424;
 }
 main{
     display: flex;
@@ -50,7 +42,7 @@ main{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color:rgb(92, 92, 92);
+    color:rgb(128, 33, 33);
     min-width: 400px;
     max-width: 400px;
     padding:20px;
@@ -65,7 +57,7 @@ li{
 hr{
     width:90%;
     height:2px;
-    background: #ff4b00;
+    background: #ff1414;
     border: none;
 }
  
@@ -83,9 +75,9 @@ hr{
   }
   
   input:focus, select:focus, textarea:focus {
-    outline: 2px solid #ff4b00;
+    outline: 2px solid #ff1414;
     outline-offset: 0px;
-    border-color: #ff4b00;
+    border-color: #ff1414;
   }
   
   textarea {
@@ -109,7 +101,7 @@ hr{
     padding: 0.6rem 1.4rem;
     font-weight: bold;
     color: gainsboro;
-    background: #ff4b00;
+    background: #ff1414;
     border: 3px solid gainsboro;
     border-radius: 6px;
     cursor: pointer;
@@ -122,14 +114,14 @@ hr{
   
   .podziekowanie {
     padding: 1rem 1.25rem;
-    background: #EFEBFC;
-    border-left: 4px solid #ff4b00;
+    background: #441111;
+    border-left: 4px solid #ff1414;
     border-radius: 6px;
   }
   
   .podziekowanie h3 {
     margin-top: 0;
-    color: #ff4b00;
+    color: #ff1414;
   }
 
   footer {
@@ -138,16 +130,16 @@ hr{
     padding-top: 0.5rem;
     padding-bottom: 2rem;
     font-size: 0.9rem;
-    color: #5A5A66;
+    color: #672137;
   }
   
   a {
-    color: #ff4b00;
+    color: #ff1414;
     text-decoration: none;
   }
   
   a:hover {
     text-decoration: underline;
-    color: #ff4b00;
+    color: #ff1414;
   }
   
